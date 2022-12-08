@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
+ * main - Entry point 
+ * size of difrent data types
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int intgerSize;
-	long int IntegerSize1;
-	long long int IntgerSize2;
-	char charSize;
-	float floatSize;
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float e;
 
-	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(charSize));
-	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(intgerSize));
-	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(IntegerSize1));
-	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(intgerSize2));
-	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(floatSize));
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(e));
 	return (0);
 }
