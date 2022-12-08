@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point for the program
  * size of difrent data types
  * Return: Always 0 (Success)
  */
