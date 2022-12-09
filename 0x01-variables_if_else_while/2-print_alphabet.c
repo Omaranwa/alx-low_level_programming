@@ -1,28 +1,21 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <stdlib.h>
 /**
-*main - Program to print alphabet letters in all cases followed by new line
-*
-*Return: return 0
-*/
+ * main - is the main starting point
+ * Explain : Gets random number (using putchar) and check its last digit
+ * , compare it with 5
+ * Return: 0
+ */
 int main(void)
 {
-	int letter;
+	char c = 'a';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (c <= 'z')
 	{
-		letter = tolower(letter);
-		putchar(letter);
-		if (letter == 'z')
-		{
-			letter = 'A';
-			for (; letter <= 'Z'; letter++)
-			{
-				putchar(letter);
-			}
-			break;
-		}
+		putchar(c);
+		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
